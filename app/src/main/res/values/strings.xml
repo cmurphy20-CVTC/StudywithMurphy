@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Study with Murphy</string>
+    <string name="action_settings">Settings</string>
+    <string name="home_notes_desc">Click on the note with the plus icon to access the notes.</string>
+    <string name="home_email_desc">Click the envelope to send an email</string>
+    <string name="assignment_title">Title</string>
+    <string name="assignment_notes">Notes</string>
+    <string name="menu_cancel_text">Cancel</string>
+    <string name="view_assignment_label">View Course</string>
+    <string name="assignment_title_hint">Assignment Title</string>
+    <string name="assignment_notes_hint">Assignment Notes</string>
+    <string name="et_to_text">cmurphy20@student.cvtc.edu</string>
+    <string name="subject_hint">Subject</string>
+    <string name="message_hint">Message</string>
+    <string name="btn_text">Send</string>
+
+</resources>

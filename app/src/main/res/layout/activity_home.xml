@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/green_bg">
+
+    <TextView
+        android:id="@+id/home_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:padding="25dp"
+        android:text="Welcome to the app! You be able to view some tips, take notes and reach out to me for more assistance. Use the menu above."
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/home_notes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="Click on the note with the plus icon to access the notes."
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@id/home_intro"
+        app:layout_constraintStart_toStartOf="@id/home_intro"
+        app:layout_constraintTop_toBottomOf="@+id/home_intro" />
+
+    <TextView
+        android:id="@+id/home_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Click the envelope to send an email"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@id/home_notes"
+        app:layout_constraintTop_toBottomOf="@+id/home_notes"
+        tools:layout_constraintTop_toBottomOf="@id/home_notes" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_email"
+        app:srcCompat="@drawable/study" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
